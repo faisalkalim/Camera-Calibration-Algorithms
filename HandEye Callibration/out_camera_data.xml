@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<opencv_storage>
+<calibration_time>"Mon 18 Mar 2019 04:06:03 PM CET"</calibration_time>
+<nr_of_frames>50</nr_of_frames>
+<image_width>1920</image_width>
+<image_height>1080</image_height>
+<board_width>7</board_width>
+<board_height>5</board_height>
+<square_size>8</square_size>
+<RotationAngle>0</RotationAngle>
+<flags>0</flags>
+<fisheye_model>0</fisheye_model>
+
+<lapCameraTracker>"/home/faisal/HandEye Callibration/TrackingArrays/NDI_patern.rom"</lapCameraTracker>
+<telescopeTracker>"/home/faisal/HandEye Callibration/TrackingArrays/cross.rom"</telescopeTracker>
+<chessboardTracker>"/home/faisal/HandEye Callibration/TrackingArrays/RefCalibGridChessboard.rom"</chessboardTracker>
+<TtoChessboard type_id="opencv-matrix">
+  <rows>4</rows>
+  <cols>4</cols>
+  <dt>d</dt>
+  <data>
+ -0.536251   0.849336  -0.010075    56.2028
+  0.849081   0.536339  0.0210069    5.03713
+ 0.0231412  0.0026983   -1.00424 -0.0769823
+         0          0          0          1
+</data></TtoChessboard>
+
+<camera_matrix type_id="opencv-matrix">
+  <rows>3</rows>
+  <cols>3</cols>
+  <dt>d</dt>
+  <data>
+    1.3412933573443522e+03 0. 9.7152335350553608e+02 0.
+    1.3378489934632823e+03 4.8411588794969441e+02 0. 0. 1.</data></camera_matrix>
+<distortion_coefficients type_id="opencv-matrix">
+  <rows>5</rows>
+  <cols>1</cols>
+  <dt>d</dt>
+  <data>
+    -2.4907267486175175e-01 1.2968916730015057e-01 0. 0.
+    -1.2583779271980980e-01</data></distortion_coefficients>
+<avg_reprojection_error>6.0943037130138633e-01</avg_reprojection_error>
+</opencv_storage>

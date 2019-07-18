@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<opencv_storage>
+
+  <BoardSize_Width> 6</BoardSize_Width>
+  <BoardSize_Height>8</BoardSize_Height>
+  
+  <Square_Size>10</Square_Size>
+  <Marker_Size>8</Marker_Size>
+  
+  <outputFile>"/home/faisal/Calibration Parameters/Zero Degree Calibration/out_camera_data.xml"</outputFile>
+
+  <imageCapturePath>"/home/faisal/IntrisicAndHandEyeCharucoCalibration/CapturedImages/"</imageCapturePath>
+
+  <lapCameraTracker>"/home/faisal/IntrisicAndHandEyeCharucoCalibration/TrackingArrays/NDI_patern.rom"</lapCameraTracker>
+  <telescopeTracker>"/home/faisal/IntrisicAndHandEyeCharucoCalibration/TrackingArrays/cross.rom"</telescopeTracker>
+  <charucoboarTracker>"/home/faisal/IntrisicAndHandEyeCharucoCalibration/TrackingArrays/RefCalibGridCharucoboard.rom"</charucoboarTracker>
+  <detectorParameters>"/home/faisal/Calibration Parameters/detector_params.yml"</detectorParameters>
+  <calibrationParams>"/home/faisal/Calibration Parameters/Zero Degree Calibration/calibration_params.xml"</calibrationParams>
+  <TtoCharucoBoard>"/home/faisal/Calibration Parameters/TtoBoards/TtoCharucoBoard.xml"</TtoCharucoBoard>
+  <zeroDegreePose>"/home/faisal/Calibration Parameters/Zero Degree Calibration/zero_Degrees_Pose.xml"</zeroDegreePose> 
+  <hand_eye_calibrations>"/home/faisal/Calibration Parameters/Zero Degree Calibration/poses_data_text.txt"</hand_eye_calibrations>
+
+
+
+  <DictionaryID> 0 </DictionaryID>
+    
+  <CameraID> 1 </CameraID>
+  
+  <Calibrate_NrOfFramesToUse>15</Calibrate_NrOfFramesToUse>
+
+  <Calibrate_NrOfAnglesToUse>30</Calibrate_NrOfAnglesToUse>
+
+  <Use_intrinsic_guess>1</Use_intrinsic_guess>
+  
+  <Calibrate_AssumeZeroTangentialDistortion>1</Calibrate_AssumeZeroTangentialDistortion>
+
+  <Fix_Focal_Length>0</Fix_Focal_Length>
+
+  <Refind_Strategy>1</Refind_Strategy>
+  <Calibrate_Zero_Degree_Position>1</Calibrate_Zero_Degree_Position>  
+
+  <Write_DetectedFeaturePoints>0</Write_DetectedFeaturePoints>
+
+  <Show_UndistortedImage>1</Show_UndistortedImage>
+  <Fix_K1>1</Fix_K1>
+  <Fix_K2>1</Fix_K2>
+  <Fix_K3>1</Fix_K3>
+  <Fix_K4>1</Fix_K4>
+  <Fix_K5>1</Fix_K5>
+  
+  
+  </opencv_storage>

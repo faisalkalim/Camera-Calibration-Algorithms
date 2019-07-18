@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<opencv_storage>
+<Settings>
+  <!-- Number of inner corners per a item row and column. (square, circle) -->
+  <BoardSize_Width> 6</BoardSize_Width>
+  <BoardSize_Height>8</BoardSize_Height>
+  
+  <!-- The size of a square in some user defined metric system (pixel, millimeter)-->
+  <Square_Size>10</Square_Size>
+  <Marker_Size>8</Marker_Size>
+  
+  <!-- The directory for storing images-->
+  <imageCapturePath>"/home/faisal/IntrisicAndHandEyeCharucoCalibration/CapturedImages/"</imageCapturePath>
+
+  <lapCameraTracker>"/home/faisal/IntrisicAndHandEyeCharucoCalibration/NDI_patern.rom"</lapCameraTracker>
+  <telescopeTracker>"/home/faisal/IntrisicAndHandEyeCharucoCalibration/TrackingArrays/cross.rom"</telescopeTracker>
+  <charucoboarTracker>"/home/faisal/IntrisicAndHandEyeCharucoCalibration/TrackingArrays/cross.rom"</charucoboarTracker>
+  <detectorParameters>"/home/faisal/Calibration Parameters/detector_params.yml"</detectorParameters>
+  <calibrationParams>"/home/faisal/Calibration Parameters/Zero Degree Calibration/calibration_params.xml"</calibrationParams>
+  <TtoCharucoBoard>"/home/faisal/Calibration Parameters/TtoBoards/TtoCharucoBoard.xml"</TtoCharucoBoard>
+  <zeroDegreePose>"/home/faisal/Calibration Parameters/Zero Degree Calibration/zero_Degrees_Pose.xml"</zeroDegreePose>
+
+  <DictionaryID> 0 </DictionaryID>
+    
+  <CameraID> 1 </CameraID>
+  
+  <Calibrate_NrOfFramesToUse>15</Calibrate_NrOfFramesToUse>
+
+  <Calibrate_NrOfAnglesToUse>30</Calibrate_NrOfAnglesToUse>
+
+  <Use_intrinsic_guess>1</Use_intrinsic_guess>
+  
+  <Calibrate_AssumeZeroTangentialDistortion>1</Calibrate_AssumeZeroTangentialDistortion>
+
+  <Fix_Focal_Length>0</Fix_Focal_Length>
+
+  <Refind_Strategy>0</Refind_Strategy>
+  
+  <!-- The name of the output log file. -->
+  <Write_outputFileName>"/home/faisal/Calibration Parameters/Zero Degree Calibration/out_camera_data.xml"</Write_outputFileName>
+  <!-- If true (non-zero) we write to the output file the feature points.-->
+  <Write_DetectedFeaturePoints>0</Write_DetectedFeaturePoints>
+  <!-- If true (non-zero) we write to the output file the extrinsic camera parameters.-->
+  <Show_UndistortedImage>1</Show_UndistortedImage>
+  <!-- If true (non-zero) distortion coefficient k1 will be equals to zero.-->
+  <Fix_K1>1</Fix_K1>
+  <!-- If true (non-zero) distortion coefficient k2 will be equals to zero.-->
+  <Fix_K2>1</Fix_K2>
+  <!-- If true (non-zero) distortion coefficient k3 will be equals to zero.-->
+  <Fix_K3>1</Fix_K3>
+  <!-- If true (non-zero) distortion coefficient k4 will be equals to zero.-->
+  <Fix_K4>1</Fix_K4>
+  <!-- If true (non-zero) distortion coefficient k5 will be equals to zero.-->
+  <Fix_K5>1</Fix_K5>
+  
+  
+  
+</Settings>
+</opencv_storage>

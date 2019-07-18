@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<opencv_storage>
+
+<TtoPatient type_id="opencv-matrix">
+  <rows>4</rows>
+  <cols>4</cols>
+  <dt>d</dt>
+  	<data>
+	 -0.465772  -0.885805 -0.0614977    51.9989
+  	  0.819068   -0.45543   0.356493     30.436
+ 	 -0.342871   0.115364   0.935151   0.128382
+          0          0          0          1
+	</data>
+</TtoPatient>
+</opencv_storage>
